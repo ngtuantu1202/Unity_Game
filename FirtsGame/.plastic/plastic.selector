@@ -1,0 +1,4 @@
+repository "FirtsGame 2024-12-11_08-26-59/FirtsGame@18968110139346@cloud"
+  path "/"
+    br "/main"
+    co "/main"
