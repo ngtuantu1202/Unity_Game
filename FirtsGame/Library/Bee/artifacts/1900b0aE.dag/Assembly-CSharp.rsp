@@ -380,6 +380,7 @@
 "Assets/Hero Knight - Pixel Art/Demo/DestroyEvent_HeroKnight.cs"
 "Assets/Hero Knight - Pixel Art/Demo/HeroKnight.cs"
 "Assets/Hero Knight - Pixel Art/Demo/Sensor_HeroKnight.cs"
+"Assets/Player.cs"
 -langversion:9.0
 /deterministic
 /optimize+
