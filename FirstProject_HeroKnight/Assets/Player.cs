@@ -4,15 +4,23 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    //di chuyen
-    private float movement;
-    public float moveSpeed = 6f;
-    //xoay huong
-    private bool facingRight = true;
     //nhay
     public Rigidbody2D rb;
     public float jumpHeight = 15f;
-    public bool isGround = true;
+    private bool isGround = true;
+
+    //animation
+    public Animator animator;
+
+
+    //di chuyen
+    private float movement;
+    public float moveSpeed = 6f;
+
+    //xoay huong
+    private bool facingRight = true;
+    
+    
 
     // Start is called before the first frame update
     void Start()
@@ -35,11 +43,29 @@ public class Player : MonoBehaviour
             transform.eulerAngles = new Vector3(0f, 0f, 0f);
             facingRight = true;
         }
+
         //nhay
         if (Input.GetKey(KeyCode.Space) && isGround)
         {
             Jump();
             isGround = false;
+            animator.SetBool("Jump", true);
+        }
+
+        //tan cong
+        if(Input.GetMouseButtonDown(0))
+        {
+            animator.SetTrigger("Attack");
+        }    
+
+        //animation trans
+        if (Mathf.Abs(movement) >= .1f)
+        {
+            animator.SetFloat("Run", 1f);
+        }
+        else if (movement < .1f)
+        {
+            animator.SetFloat("Run", 0f);
         }
     }
 
@@ -58,6 +84,7 @@ public class Player : MonoBehaviour
         if(collision.gameObject.tag == "Ground")
         {
             isGround = true;
+            animator.SetBool("Jump", false) ;
         }    
     }
 }

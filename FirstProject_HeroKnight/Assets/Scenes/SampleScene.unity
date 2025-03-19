@@ -265,10 +265,6 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 4554592061814898076, guid: d18faa71664967e488b87510b255ce8d, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4554592061814898076, guid: d18faa71664967e488b87510b255ce8d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.61
       objectReference: {fileID: 0}
@@ -309,20 +305,13 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6227221209903011285, guid: d18faa71664967e488b87510b255ce8d, type: 3}
-      propertyPath: rb
+      propertyPath: animator
       value: 
-      objectReference: {fileID: 1755646243}
-    - target: {fileID: 6227221209903011285, guid: d18faa71664967e488b87510b255ce8d, type: 3}
-      propertyPath: jumpHeight
-      value: 20
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1755646246}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1503724612444293834, guid: d18faa71664967e488b87510b255ce8d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1755646246}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d18faa71664967e488b87510b255ce8d, type: 3}
 --- !u!1 &519420028
 GameObject:
@@ -416,37 +405,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1755646240 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1503724612444293834, guid: d18faa71664967e488b87510b255ce8d, type: 3}
-  m_PrefabInstance: {fileID: 153289918}
-  m_PrefabAsset: {fileID: 0}
---- !u!50 &1755646243 stripped
-Rigidbody2D:
-  m_CorrespondingSourceObject: {fileID: 5299715138200042726, guid: d18faa71664967e488b87510b255ce8d, type: 3}
-  m_PrefabInstance: {fileID: 153289918}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &1755646246
+--- !u!95 &1755646246 stripped
 Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 6810287187363179734, guid: d18faa71664967e488b87510b255ce8d, type: 3}
+  m_PrefabInstance: {fileID: 153289918}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1755646240}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 94e21a9efe3f6e047b4e3815d2c7bac9, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
