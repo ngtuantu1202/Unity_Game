@@ -9392,6 +9392,32 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &1723063105 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6321046774899634805, guid: 9dfcf09b1182a7c4d85e9b36670b56f5, type: 3}
+  m_PrefabInstance: {fileID: 7227457285320760058}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1723063111
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1723063105}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e1f40f91ff4030146b89debb3b703720, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!95 &1755646246 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 6810287187363179734, guid: d18faa71664967e488b87510b255ce8d, type: 3}
@@ -12472,7 +12498,7 @@ GameObject:
   - component: {fileID: 1947199678}
   - component: {fileID: 1947199680}
   - component: {fileID: 1947199679}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -18837,6 +18863,66 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6cbd0930e05c3d04eb5b4c0525cfab03, type: 3}
+--- !u!1001 &7227457285320760058
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2806944268773742430, guid: 9dfcf09b1182a7c4d85e9b36670b56f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 18.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 2806944268773742430, guid: 9dfcf09b1182a7c4d85e9b36670b56f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 2806944268773742430, guid: 9dfcf09b1182a7c4d85e9b36670b56f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2806944268773742430, guid: 9dfcf09b1182a7c4d85e9b36670b56f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2806944268773742430, guid: 9dfcf09b1182a7c4d85e9b36670b56f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2806944268773742430, guid: 9dfcf09b1182a7c4d85e9b36670b56f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2806944268773742430, guid: 9dfcf09b1182a7c4d85e9b36670b56f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2806944268773742430, guid: 9dfcf09b1182a7c4d85e9b36670b56f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2806944268773742430, guid: 9dfcf09b1182a7c4d85e9b36670b56f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2806944268773742430, guid: 9dfcf09b1182a7c4d85e9b36670b56f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6321046774899634805, guid: 9dfcf09b1182a7c4d85e9b36670b56f5, type: 3}
+      propertyPath: m_Name
+      value: PatrolEnemy
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6321046774899634805, guid: 9dfcf09b1182a7c4d85e9b36670b56f5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1723063111}
+  m_SourcePrefab: {fileID: 100100000, guid: 9dfcf09b1182a7c4d85e9b36670b56f5, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -18846,3 +18932,4 @@ SceneRoots:
   - {fileID: 2145525549}
   - {fileID: 185258227}
   - {fileID: 4173870398732783045}
+  - {fileID: 7227457285320760058}
