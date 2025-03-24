@@ -9,6 +9,14 @@ public class PatrolEnemy : MonoBehaviour
     public Transform checkPoint;
     public float distance = 1f;
     public LayerMask layerMask;
+    public Transform player;
+    public float attackRange = 10f;
+    public float retrieveDistance = 2.5f;
+    public float chaseSpeed = 4f;
+    public Animator animator;
+
+    //tan cong
+    public bool inRange = false;
 
     // Start is called before the first frame update
     void Start()
@@ -19,20 +27,45 @@ public class PatrolEnemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector2.left * Time.deltaTime * moveSpeed);
-
-        RaycastHit2D hit = Physics2D.Raycast(checkPoint.position, Vector2.down, distance, layerMask);
-
-        if (hit == false && facingLeft)
+        if (Vector2.Distance(transform.position, player.position) <= attackRange)
         {
-            transform.eulerAngles = new Vector3(0, 180, 0);
-            facingLeft = false;
+            inRange = true;
         }
-        else if (hit == false && facingLeft == false)
+        else
         {
-            transform.eulerAngles = new Vector3(0, 0, 0);
-            facingLeft = true;
+            inRange = false;
         }
+
+        if (inRange)
+        {
+            //Debug.Log("Player in range");
+            if(Vector2.Distance(transform.position, player.position) > retrieveDistance)
+            {
+                animator.SetBool("Attack1", false);
+                transform.position = Vector2.MoveTowards(transform.position, player.position, chaseSpeed * Time.deltaTime);
+            }    
+            else
+            {
+                animator.SetBool("Attack1", true);
+            }    
+        }    
+        else
+        {
+            transform.Translate(Vector2.left * Time.deltaTime * moveSpeed);
+
+            RaycastHit2D hit = Physics2D.Raycast(checkPoint.position, Vector2.down, distance, layerMask);
+
+            if (hit == false && facingLeft)
+            {
+                transform.eulerAngles = new Vector3(0, 180, 0);
+                facingLeft = false;
+            }
+            else if (hit == false && facingLeft == false)
+            {
+                transform.eulerAngles = new Vector3(0, 0, 0);
+                facingLeft = true;
+            }
+        }    
     }
 
     private void OnDrawGizmosSelected()
@@ -41,7 +74,12 @@ public class PatrolEnemy : MonoBehaviour
         {
             return;
         }    
+        //Ve checkpoint
         Gizmos.color = Color.yellow;
         Gizmos.DrawRay(checkPoint.position, Vector2.down * distance);
+
+        //Ve vung trigger enemy
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, attackRange);
     }
 }

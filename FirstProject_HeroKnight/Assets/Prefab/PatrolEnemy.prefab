@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 6381300840500947494}
   - component: {fileID: 2751855518902728527}
   - component: {fileID: 1927059270239463321}
+  - component: {fileID: 2721719935719469483}
   m_Layer: 0
   m_Name: PatrolEnemy
   m_TagString: Untagged
@@ -210,3 +211,24 @@ MonoBehaviour:
   layerMask:
     serializedVersion: 2
     m_Bits: 64
+--- !u!95 &2721719935719469483
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6321046774899634805}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e1f40f91ff4030146b89debb3b703720, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
