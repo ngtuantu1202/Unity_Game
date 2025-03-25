@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 896902878478340925}
   - component: {fileID: 6227221209903011285}
   - component: {fileID: 6810287187363179734}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -172,10 +172,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38d2ea092eddb944caaee112e33f089f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 6
   rb: {fileID: 5299715138200042726}
-  jumpHeight: 20
-  isGround: 1
+  jumpHeight: 15
+  animator: {fileID: 6810287187363179734}
+  moveSpeed: 6
 --- !u!95 &6810287187363179734
 Animator:
   serializedVersion: 5

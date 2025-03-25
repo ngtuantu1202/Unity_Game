@@ -17,6 +17,10 @@ public class PatrolEnemy : MonoBehaviour
 
     //tan cong
     public bool inRange = false;
+    //event
+    public Transform attackPoint;
+    public float attackRadius = 1.4f;
+    public LayerMask attackLayer;
 
     // Start is called before the first frame update
     void Start()
@@ -38,6 +42,18 @@ public class PatrolEnemy : MonoBehaviour
 
         if (inRange)
         {
+            //Flip
+            if(player.position.x > transform.position.x && facingLeft)
+            {
+                transform.eulerAngles = new Vector3(0, -180, 0);
+                facingLeft = false;
+            }
+            else if (player.position.x < transform.position.x && facingLeft == false)
+            {
+                transform.eulerAngles = new Vector3(0, 0, 0);
+                facingLeft = true;
+            }
+
             //Debug.Log("Player in range");
             if(Vector2.Distance(transform.position, player.position) > retrieveDistance)
             {
@@ -68,6 +84,16 @@ public class PatrolEnemy : MonoBehaviour
         }    
     }
 
+    public void Attack()
+    {
+        Collider2D collInfo = Physics2D.OverlapCircle(attackPoint.position, attackRadius, attackLayer);
+
+        if (collInfo)
+        {
+            Debug.Log(collInfo.transform.name);
+        }    
+    }    
+
     private void OnDrawGizmosSelected()
     {
         if(checkPoint == null)
@@ -79,7 +105,12 @@ public class PatrolEnemy : MonoBehaviour
         Gizmos.DrawRay(checkPoint.position, Vector2.down * distance);
 
         //Ve vung trigger enemy
-        Gizmos.color = Color.red;
+        Gizmos.color = Color.blue;
         Gizmos.DrawWireSphere(transform.position, attackRange);
+
+        //attack
+        if (attackPoint == null) return;
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(attackPoint.position, attackRadius);
     }
 }
