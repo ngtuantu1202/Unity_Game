@@ -1,9 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
+    //chi so
+    public int maxHealth = 5;
+    public Text health;
+
     //nhay
     public Rigidbody2D rb;
     public float jumpHeight = 15f;
@@ -19,8 +25,11 @@ public class Player : MonoBehaviour
 
     //xoay huong
     private bool facingRight = true;
-    
-    
+
+    //attack
+    public Transform attackPoint;
+    public float attackRadius = 1.92f;
+    public LayerMask attackLayer;
 
     // Start is called before the first frame update
     void Start()
@@ -31,6 +40,13 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //die
+        if(maxHealth <= 0)
+        {
+            Die();
+        }
+        //chi so
+        health.text = maxHealth.ToString();
         //di chuyen
         movement = Input.GetAxis("Horizontal");
         if (movement < 0f && facingRight)
@@ -86,5 +102,40 @@ public class Player : MonoBehaviour
             isGround = true;
             animator.SetBool("Jump", false) ;
         }    
+    }
+
+    public void Attack()
+    {
+        Collider2D collInfo = Physics2D.OverlapCircle(attackPoint.position, attackRadius, attackLayer);
+
+        if (collInfo)
+        {
+            Debug.Log(collInfo.gameObject.name + " takes dameages");
+            //if (collInfo.gameObject.GetComponent<Player>() != null)
+            //{
+            //    collInfo.gameObject.GetComponent<Player>().TakeDamage(1);
+            //}
+        }
+    }
+
+    public void TakeDamage(int damage)
+    {
+        if(maxHealth <= 0)
+        {
+            return;
+        } maxHealth -= damage;
+    }    
+
+    void Die()
+    {
+        Debug.Log("You Die");
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        //attack
+        if (attackPoint == null) return;
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(attackPoint.position, attackRadius);
     }
 }

@@ -90,7 +90,10 @@ public class PatrolEnemy : MonoBehaviour
 
         if (collInfo)
         {
-            Debug.Log(collInfo.transform.name);
+            if(collInfo.gameObject.GetComponent<Player>() != null)
+            {
+                collInfo.gameObject.GetComponent<Player>().TakeDamage(1);
+            }
         }    
     }    
 
