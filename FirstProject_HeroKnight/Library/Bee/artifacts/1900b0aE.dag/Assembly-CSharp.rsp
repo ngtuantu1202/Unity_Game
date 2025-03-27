@@ -382,8 +382,9 @@
 "Assets/Hero Knight - Pixel Art/Demo/DestroyEvent_HeroKnight.cs"
 "Assets/Hero Knight - Pixel Art/Demo/HeroKnight.cs"
 "Assets/Hero Knight - Pixel Art/Demo/Sensor_HeroKnight.cs"
-"Assets/PatrolEnemy.cs"
-"Assets/Player.cs"
+"Assets/Scripts/Game Manager.cs"
+"Assets/Scripts/PatrolEnemy.cs"
+"Assets/Scripts/Player.cs"
 -langversion:9.0
 /deterministic
 /optimize+
