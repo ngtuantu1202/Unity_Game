@@ -175,12 +175,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 5
   health: {fileID: 0}
+  currentCoin: 0
   rb: {fileID: 5299715138200042726}
   jumpHeight: 15
   animator: {fileID: 6810287187363179734}
   moveSpeed: 6
   attackPoint: {fileID: 961152375537115973}
-  attackRadius: 1
+  attackRadius: 1.92
   attackLayer:
     serializedVersion: 2
     m_Bits: 256

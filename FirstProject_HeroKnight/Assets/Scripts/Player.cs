@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.InteropServices;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
@@ -9,6 +10,8 @@ public class Player : MonoBehaviour
     //chi so
     public int maxHealth = 5;
     public Text health;
+    public Text coin;
+    public int currentCoin = 0;
 
     //nhay
     public Rigidbody2D rb;
@@ -49,6 +52,7 @@ public class Player : MonoBehaviour
         }
         //chi so
         health.text = maxHealth.ToString();
+        coin.text = currentCoin.ToString();
         //di chuyen
         movement = Input.GetAxis("Horizontal");
         if (movement < 0f && facingRight)
@@ -133,6 +137,17 @@ public class Player : MonoBehaviour
         Debug.Log("You Die");
         FindObjectOfType<GameManager>().isGameActive = false;
         Destroy(this.gameObject);
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Coin")
+        {
+            currentCoin++;
+            other.gameObject.transform.GetChild(0).GetComponent<Animator>().SetTrigger("Collected");
+            Destroy(other.gameObject, 1f);
+
+        }
     }
 
     private void OnDrawGizmosSelected()
