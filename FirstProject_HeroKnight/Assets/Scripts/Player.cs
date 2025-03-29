@@ -148,6 +148,12 @@ public class Player : MonoBehaviour
             Destroy(other.gameObject, 1f);
 
         }
+
+        if(other.gameObject.tag == "VictoryPoint ")
+        {
+            //Debug.Log("Victory");
+            FindObjectOfType<SceneManageMent>().LoadLevel();
+        }
     }
 
     private void OnDrawGizmosSelected()

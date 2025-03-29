@@ -385,6 +385,7 @@
 "Assets/Scripts/Game Manager.cs"
 "Assets/Scripts/PatrolEnemy.cs"
 "Assets/Scripts/Player.cs"
+"Assets/Scripts/Scene Manage Ment.cs"
 -langversion:9.0
 /deterministic
 /optimize+
