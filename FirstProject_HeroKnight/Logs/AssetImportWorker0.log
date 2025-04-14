@@ -15,7 +15,7 @@ D:/IT/Github/Unity_Game/FirstProject_HeroKnight
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50751
+56562
 Successfully changed project path to: D:/IT/Github/Unity_Game/FirstProject_HeroKnight
 D:/IT/Github/Unity_Game/FirstProject_HeroKnight
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ D:/IT/Github/Unity_Game/FirstProject_HeroKnight
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [10332]  Target information:
+Player connection [13136]  Target information:
 
-Player connection [10332]  * "[IP] 192.168.100.212 [Port] 0 [Flags] 2 [Guid] 2397345501 [EditorId] 2397345501 [Version] 1048832 [Id] WindowsEditor(7,NTT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [13136]  * "[IP] 192.168.100.212 [Port] 0 [Flags] 2 [Guid] 2491114072 [EditorId] 2491114072 [Version] 1048832 [Id] WindowsEditor(7,NTT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [10332] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [10332] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [13136] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [13136] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 13.75 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 16.71 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.54f1 (129125d4e700)
 [Subsystems] Discovering subsystems at path D:/IT/Editor/2022.3.54f1/Editor/Data/Resources/UnitySubsystems
@@ -72,49 +72,49 @@ Initialize mono
 Mono path[0] = 'D:/IT/Editor/2022.3.54f1/Editor/Data/Managed'
 Mono path[1] = 'D:/IT/Editor/2022.3.54f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/IT/Editor/2022.3.54f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56864
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56088
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/IT/Editor/2022.3.54f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/IT/Editor/2022.3.54f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/IT/Editor/2022.3.54f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003905 seconds.
-- Loaded All Assemblies, in  0.336 seconds
+Registered in 0.004976 seconds.
+- Loaded All Assemblies, in  0.376 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 260 ms
+Android Extension - Scanning For ADB Devices 280 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.558 seconds
-Domain Reload Profiling: 894ms
-	BeginReloadAssembly (100ms)
+- Finished resetting the current domain, in  0.563 seconds
+Domain Reload Profiling: 939ms
+	BeginReloadAssembly (111ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (47ms)
-	LoadAllAssembliesAndSetupDomain (147ms)
-		LoadAssemblies (100ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (166ms)
+		LoadAssemblies (111ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (145ms)
-			TypeCache.Refresh (142ms)
-				TypeCache.ScanAssembly (127ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (558ms)
+		AnalyzeDomain (163ms)
+			TypeCache.Refresh (162ms)
+				TypeCache.ScanAssembly (147ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (563ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (511ms)
+		SetupLoadedEditorAssemblies (515ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (335ms)
+			InitializePlatformSupportModulesInManaged (355ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (127ms)
-			ProcessInitializeOnLoadMethodAttributes (44ms)
+			ProcessInitializeOnLoadAttributes (111ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -124,52 +124,52 @@ Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.692 seconds
+- Loaded All Assemblies, in  0.616 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.899 seconds
-Domain Reload Profiling: 1591ms
-	BeginReloadAssembly (155ms)
+- Finished resetting the current domain, in  0.779 seconds
+Domain Reload Profiling: 1395ms
+	BeginReloadAssembly (130ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (454ms)
-		LoadAssemblies (315ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (404ms)
+		LoadAssemblies (278ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (225ms)
-			TypeCache.Refresh (192ms)
-				TypeCache.ScanAssembly (170ms)
-			ScanForSourceGeneratedMonoScriptInfo (25ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (899ms)
+		AnalyzeDomain (199ms)
+			TypeCache.Refresh (160ms)
+				TypeCache.ScanAssembly (137ms)
+			ScanForSourceGeneratedMonoScriptInfo (29ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (780ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (714ms)
+		SetupLoadedEditorAssemblies (621ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (18ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (74ms)
-			ProcessInitializeOnLoadAttributes (568ms)
-			ProcessInitializeOnLoadMethodAttributes (45ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (490ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 5.16 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 6.21 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4191 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 59 unused Assets / (317.0 KB). Loaded Objects now: 4648.
+Unloading 4192 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (316.5 KB). Loaded Objects now: 4649.
 Memory consumption went from 144.3 MB to 144.0 MB.
-Total: 4.220300 ms (FindLiveObjects: 0.397500 ms CreateObjectMapping: 0.305400 ms MarkObjects: 3.252800 ms  DeleteObjects: 0.263100 ms)
+Total: 6.665300 ms (FindLiveObjects: 0.757500 ms CreateObjectMapping: 0.443500 ms MarkObjects: 5.140500 ms  DeleteObjects: 0.321700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -186,456 +186,10 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 10157.923313 seconds.
-  path: Assets/Tile Map/Terrain_and_Props_31.asset
-  artifactKey: Guid(f579c43662980124eb58adfc92acc32f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile Map/Terrain_and_Props_31.asset using Guid(f579c43662980124eb58adfc92acc32f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '8a3ba8140ee0f19cbdd93174e46db654') in 0.071053 seconds
+  Time since last request: 178420.732601 seconds.
+  path: Assets/Logo
+  artifactKey: Guid(2c37e9a0a866ffd4ea520ce942d20d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Logo using Guid(2c37e9a0a866ffd4ea520ce942d20d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b0d8070fffd51b274504052f9b150b7f') in 0.005961 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Tile Map/Terrain_and_Props_40.asset
-  artifactKey: Guid(4e040f555e518524280d1ac8fbe2154f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile Map/Terrain_and_Props_40.asset using Guid(4e040f555e518524280d1ac8fbe2154f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '3bc28751e6410845cecf328b11914b72') in 0.007551 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Tile Map/Terrain_and_Props_55.asset
-  artifactKey: Guid(ffdfb3b931a2e9e4d91180ff89320742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile Map/Terrain_and_Props_55.asset using Guid(ffdfb3b931a2e9e4d91180ff89320742) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'ca725c1541727b72394437e30bd042db') in 0.006362 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Tile Map/Terrain_and_Props_39.asset
-  artifactKey: Guid(ff289a748ef5f7d4b906f176a69f8700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile Map/Terrain_and_Props_39.asset using Guid(ff289a748ef5f7d4b906f176a69f8700) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '1d2330832f790902b6e7c7aa13d01820') in 0.007262 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Tile Map/Terrain_and_Props_37.asset
-  artifactKey: Guid(a6076a93ff9239846aa11b8775f1da45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile Map/Terrain_and_Props_37.asset using Guid(a6076a93ff9239846aa11b8775f1da45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9ef9537773e7c00225f6ce6476d364f5') in 0.006704 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Tile Map/Terrain_and_Props_56.asset
-  artifactKey: Guid(42904c9919631fe45ae4716cedae0d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile Map/Terrain_and_Props_56.asset using Guid(42904c9919631fe45ae4716cedae0d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '715089cd404d995d9d418a216c3f538f') in 0.005633 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Tile Map/Terrain_and_Props_35.asset
-  artifactKey: Guid(bf7f800e1d6be0a44a576bc6ea3b1ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile Map/Terrain_and_Props_35.asset using Guid(bf7f800e1d6be0a44a576bc6ea3b1ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '31de387655169f12c754a5e69734d229') in 0.005503 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Tile Map/Terrain_and_Props_49.asset
-  artifactKey: Guid(a5059b88f16edc741b397edeebcfa743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile Map/Terrain_and_Props_49.asset using Guid(a5059b88f16edc741b397edeebcfa743) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '04bb33b73b44b3f1bfcec27cf792b3f1') in 0.005637 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Tile Map/Terrain_and_Props_46.asset
-  artifactKey: Guid(bb960e85fbed44a4698a01a58ca2a3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile Map/Terrain_and_Props_46.asset using Guid(bb960e85fbed44a4698a01a58ca2a3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '14045db363fb4f21009307831b19c59e') in 0.005560 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Tile Map/Terrain_and_Props_51.asset
-  artifactKey: Guid(64b53e3d164a0b84fa6e7c591e5956b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile Map/Terrain_and_Props_51.asset using Guid(64b53e3d164a0b84fa6e7c591e5956b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'fdbcea8fa2a7b8d9ed6b05ce3eb8e465') in 0.005121 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Tile Map/Terrain_and_Props_42.asset
-  artifactKey: Guid(7f74a945d6b04bb42a59a0c293acf9d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile Map/Terrain_and_Props_42.asset using Guid(7f74a945d6b04bb42a59a0c293acf9d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '8751e87242a6795eee27a3c1a9498b7b') in 0.005059 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Tile Map/Terrain_and_Props_32.asset
-  artifactKey: Guid(c5775de0a5f0b7a4dba6116148ec730d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile Map/Terrain_and_Props_32.asset using Guid(c5775de0a5f0b7a4dba6116148ec730d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '20321460725d83247e19a09e1988d84c') in 0.005718 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Tile Map/Terrain_and_Props_54.asset
-  artifactKey: Guid(35a1884677bbefd4999aaeb1ade49eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile Map/Terrain_and_Props_54.asset using Guid(35a1884677bbefd4999aaeb1ade49eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '3b2a11fd94577ddef8e870efa64a3bbb') in 0.007788 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 5.164796 seconds.
-  path: Assets/Tile Map/Terrain_and_Props_58.asset
-  artifactKey: Guid(b7c40271185b0814a8be228457b61e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile Map/Terrain_and_Props_58.asset using Guid(b7c40271185b0814a8be228457b61e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '34759e9e8a04636cf3223fb925b2c5a7') in 0.005760 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Tile Map/Terrain_and_Props_62.asset
-  artifactKey: Guid(0fcb421a29525ac499f427b03b744bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile Map/Terrain_and_Props_62.asset using Guid(0fcb421a29525ac499f427b03b744bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '8f455389b4aa974b05dc27523d899d6b') in 0.008221 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Tile Map/Terrain_and_Props_63.asset
-  artifactKey: Guid(0dfed4bc9ac551b49bb194b05dbc47a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile Map/Terrain_and_Props_63.asset using Guid(0dfed4bc9ac551b49bb194b05dbc47a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '3d588a5476d6ffa449d6064d15110d1d') in 0.007009 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.385692 seconds.
-  path: Assets/Tile Map/Terrain_and_Props_66.asset
-  artifactKey: Guid(f42949cd5ec3e59439c5637e0925272a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile Map/Terrain_and_Props_66.asset using Guid(f42949cd5ec3e59439c5637e0925272a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '492623f09abe49f591a0e162ab786235') in 0.006066 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Tile Map/Terrain_and_Props_68.asset
-  artifactKey: Guid(20b29166274d8f84daf1e8e2cf358572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile Map/Terrain_and_Props_68.asset using Guid(20b29166274d8f84daf1e8e2cf358572) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'ec13cced047968c1a662af5a04c87c96') in 0.007790 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Tile Map/Terrain_and_Props_70.asset
-  artifactKey: Guid(439769ab83e7d7e4a8b02de43360a825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile Map/Terrain_and_Props_70.asset using Guid(439769ab83e7d7e4a8b02de43360a825) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b31ccd7adb212b891f1f78419fcbbe3f') in 0.006164 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.365106 seconds.
-  path: Assets/Tile Map/Terrain_and_Props_74.asset
-  artifactKey: Guid(f4844d7d6a17a9f409b64e6e6168cccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile Map/Terrain_and_Props_74.asset using Guid(f4844d7d6a17a9f409b64e6e6168cccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e8f1766a1a4fbca98e1bb054afb1c71b') in 0.005211 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Tile Map/Terrain_and_Props_79.asset
-  artifactKey: Guid(fd3b84d100780fe49a81c3d77c15e481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile Map/Terrain_and_Props_79.asset using Guid(fd3b84d100780fe49a81c3d77c15e481) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'd47eb3df1e9034c8fa6530ff6aae47f2') in 0.006921 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Tile Map/Terrain_and_Props_78.asset
-  artifactKey: Guid(83993630dbe13f845a8c8108eedaa052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile Map/Terrain_and_Props_78.asset using Guid(83993630dbe13f845a8c8108eedaa052) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '389cdc15b44c3c19c24fd9ba79fcc705') in 0.011057 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.026786 seconds.
-  path: Assets/Tile Map/Terrain_and_Props_82.asset
-  artifactKey: Guid(87732eded6edaad469cca402282cd51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile Map/Terrain_and_Props_82.asset using Guid(87732eded6edaad469cca402282cd51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'a44dab80ac67d5774501b5bbf50b807c') in 0.006970 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Tile Map/Terrain_and_Props_87.asset
-  artifactKey: Guid(e20641f8f2658ba4fb60f46b85f45396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile Map/Terrain_and_Props_87.asset using Guid(e20641f8f2658ba4fb60f46b85f45396) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '285e9210aac245d3e1632d22b43f8055') in 0.006879 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Tile Map/Terrain_and_Props_88.asset
-  artifactKey: Guid(af9567629839c334bb92568371b0a423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile Map/Terrain_and_Props_88.asset using Guid(af9567629839c334bb92568371b0a423) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '6f8849085eccc122be71324be6aad902') in 0.005413 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.382136 seconds.
-  path: Assets/Tile Map/Terrain_and_Props_90.asset
-  artifactKey: Guid(499fae46df8dcd94a967efb199db6692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile Map/Terrain_and_Props_90.asset using Guid(499fae46df8dcd94a967efb199db6692) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e45ed7b8e10f942b3c53ae63380e711d') in 0.004909 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Tile Map/Terrain_and_Props_96.asset
-  artifactKey: Guid(a7706c15c4ee5524e8e9330c19f5c471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile Map/Terrain_and_Props_96.asset using Guid(a7706c15c4ee5524e8e9330c19f5c471) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e8c7e62b0e5c79bbad6213de885175bf') in 0.004595 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Tile Map/Terrain_and_Props_93.asset
-  artifactKey: Guid(47fa53595c9ea954db636562f9cc9020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile Map/Terrain_and_Props_93.asset using Guid(47fa53595c9ea954db636562f9cc9020) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '78fdc68905fd049bc6578e9f72c7a6b5') in 0.004884 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.341750 seconds.
-  path: Assets/Tile Map/Terrain_and_Props_98.asset
-  artifactKey: Guid(c1089889059bfae43b30adc07a87e757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile Map/Terrain_and_Props_98.asset using Guid(c1089889059bfae43b30adc07a87e757) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'af1c65647956d9ea4e54511d1035966f') in 0.004566 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Tile Map/Terrain_and_Props_102.asset
-  artifactKey: Guid(4f84c72f5ec7b5948b646adf9ac7b897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile Map/Terrain_and_Props_102.asset using Guid(4f84c72f5ec7b5948b646adf9ac7b897) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '703ea4e2e08dd9414fb844f0891d31c7') in 0.005467 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Tile Map/Terrain_and_Props_103.asset
-  artifactKey: Guid(3509c6faa97d65c499570c42110491e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile Map/Terrain_and_Props_103.asset using Guid(3509c6faa97d65c499570c42110491e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'a8ecc09932a27d9f446c0937ff886d96') in 0.005021 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.019557 seconds.
-  path: Assets/Tile Map/Terrain_and_Props_106.asset
-  artifactKey: Guid(559d12890fb009643aee192657772138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile Map/Terrain_and_Props_106.asset using Guid(559d12890fb009643aee192657772138) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '4a59a871f4749a28c214bb3dca123ed5') in 0.005440 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Tile Map/Terrain_and_Props_108.asset
-  artifactKey: Guid(360cda41fb20c4d4e8ab20b8abf75145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile Map/Terrain_and_Props_108.asset using Guid(360cda41fb20c4d4e8ab20b8abf75145) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '428b2e6c8f6ed0df56b384e476fcb2c6') in 0.004575 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Tile Map/Terrain_and_Props_111.asset
-  artifactKey: Guid(d8acd19ce6d701e40a4f22ce294489d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile Map/Terrain_and_Props_111.asset using Guid(d8acd19ce6d701e40a4f22ce294489d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'c3f6fd74adcd17c3a01baa4bdfc06cc8') in 0.005269 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.367686 seconds.
-  path: Assets/Tile Map/Terrain_and_Props_114.asset
-  artifactKey: Guid(b9187dfdab14e724dbfd777fc47b721e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile Map/Terrain_and_Props_114.asset using Guid(b9187dfdab14e724dbfd777fc47b721e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '659fecba4cd1dd6773543401ffca0af2') in 0.005485 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Tile Map/Terrain_and_Props_119.asset
-  artifactKey: Guid(33a148ec459130243932a61a34f9b666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile Map/Terrain_and_Props_119.asset using Guid(33a148ec459130243932a61a34f9b666) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '477ffa75751a945519dfbde27ee3f3f6') in 0.004936 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Tile Map/Terrain_and_Props_117.asset
-  artifactKey: Guid(4389664c1d21ab04893b7e9e40a7c09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile Map/Terrain_and_Props_117.asset using Guid(4389664c1d21ab04893b7e9e40a7c09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'ac0780d2454f355fda35620943097c5f') in 0.003812 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.016325 seconds.
-  path: Assets/Tile Map/Terrain_and_Props_122.asset
-  artifactKey: Guid(3b7c6c94edb00b64281163e9769873a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile Map/Terrain_and_Props_122.asset using Guid(3b7c6c94edb00b64281163e9769873a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'ce83a7d15a4f251724eb019c672edbbe') in 0.004359 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Tile Map/Terrain_and_Props_126.asset
-  artifactKey: Guid(a1d5dd4224a335249897418478ab3d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile Map/Terrain_and_Props_126.asset using Guid(a1d5dd4224a335249897418478ab3d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'eff143726d99fb2e09912bf4947eabb7') in 0.005590 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.311383 seconds.
-  path: Assets/Tile Map/Terrain_and_Props_130.asset
-  artifactKey: Guid(1fd56bbb11d1fe14fb86cb3976d2d49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile Map/Terrain_and_Props_130.asset using Guid(1fd56bbb11d1fe14fb86cb3976d2d49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'ed106cd046196917c46a1d06595d2459') in 0.004305 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Tile Map/Terrain_and_Props_136.asset
-  artifactKey: Guid(23c73d6ad29a048469107a92d708995d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile Map/Terrain_and_Props_136.asset using Guid(23c73d6ad29a048469107a92d708995d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '76ab429af0d0ba8e2cfe752b2f282845') in 0.004249 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Tile Map/Terrain_and_Props_133.asset
-  artifactKey: Guid(e541855d0ab13574db7e590d16b5a3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile Map/Terrain_and_Props_133.asset using Guid(e541855d0ab13574db7e590d16b5a3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '6a16b63293e26229971907101953da65') in 0.004884 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.034214 seconds.
-  path: Assets/Tile Map/Terrain_and_Props_138.asset
-  artifactKey: Guid(eca479211e789e040866fb6a287e397d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile Map/Terrain_and_Props_138.asset using Guid(eca479211e789e040866fb6a287e397d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '18fdcd1ae2872359c4b37d536d6f376f') in 0.004323 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Tile Map/Terrain_and_Props_140.asset
-  artifactKey: Guid(d683398ec7336244598a4d719ab4b19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile Map/Terrain_and_Props_140.asset using Guid(d683398ec7336244598a4d719ab4b19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9c3c0d1569e34b4193abb61d6828cf8b') in 0.004846 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Tile Map/Terrain_and_Props_142.asset
-  artifactKey: Guid(cf158caad1a7836499b1e290a2b0bb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile Map/Terrain_and_Props_142.asset using Guid(cf158caad1a7836499b1e290a2b0bb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b4b356fa7992a782128569935d6f3bed') in 0.004347 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.267598 seconds.
-  path: Assets/Tile Map/Terrain_and_Props_146.asset
-  artifactKey: Guid(046a98d06594fad49ba40dc0696c47b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile Map/Terrain_and_Props_146.asset using Guid(046a98d06594fad49ba40dc0696c47b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '51fae4893c624c8926059d48175d79af') in 0.005086 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Tile Map/Terrain_and_Props_151.asset
-  artifactKey: Guid(10b7ae8d0865a5142837ebebdda7bdc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile Map/Terrain_and_Props_151.asset using Guid(10b7ae8d0865a5142837ebebdda7bdc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e2a45d2f242b8726f952b9d60241b823') in 0.004404 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Tile Map/Terrain_and_Props_148.asset
-  artifactKey: Guid(d151a89d2d4ea06499da8f396ea89a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile Map/Terrain_and_Props_148.asset using Guid(d151a89d2d4ea06499da8f396ea89a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b1249024196fe9faa976075a56a6b350') in 0.005156 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.056561 seconds.
-  path: Assets/Tile Map/Terrain_and_Props_154.asset
-  artifactKey: Guid(0b043b21f5343394dbf85f8ea7dfdccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile Map/Terrain_and_Props_154.asset using Guid(0b043b21f5343394dbf85f8ea7dfdccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '744f3919e7a50fcb91e949a073a6a98c') in 0.004643 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Tile Map/Terrain_and_Props_160.asset
-  artifactKey: Guid(74b8a1a84f945f7498136a567e341b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile Map/Terrain_and_Props_160.asset using Guid(74b8a1a84f945f7498136a567e341b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '446c9382bc86b28d02469b3d9579fea2') in 0.007344 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Number of asset objects unloaded after import = 0
