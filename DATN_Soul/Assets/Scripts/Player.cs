@@ -13,7 +13,7 @@ public class Player : MonoBehaviour
     [SerializeField] private bool facingRight = true;
 
     //nhay
-    private float jumpHeight = 17f;
+    private float jumpHeight = 25f;
     Rigidbody2D rb;
     private bool isGround;
     [SerializeField] private Transform groundCheck;
@@ -133,7 +133,7 @@ public class Player : MonoBehaviour
         //reset
         if (attackCount > 1) attackCount = 0;
         isAttacking = false;
-
+    
         StartCoroutine(ResetAttack());
     }
 

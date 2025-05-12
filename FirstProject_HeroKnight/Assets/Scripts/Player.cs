@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using Unity.VisualScripting;
@@ -34,15 +34,27 @@ public class Player : MonoBehaviour
     public float attackRadius = 1.92f;
     public LayerMask attackLayer;
 
+    //game manager
+    private GameManager gameManager;
     // Start is called before the first frame update
     void Start()
     {
-        
+        rb = GetComponent<Rigidbody2D>();
+        gameManager = FindObjectOfType<GameManager>();
+
+        // Reset trạng thái
+        maxHealth = 5;
+        currentCoin = 0;
+        isGround = true;
     }
+
 
     // Update is called once per frame
     void Update()
     {
+        //game manager
+        if (gameManager.IsGameOver()) return; 
+
         //die
         if(maxHealth <= 0)
         {
@@ -53,6 +65,7 @@ public class Player : MonoBehaviour
         //chi so
         health.text = maxHealth.ToString();
         coin.text = currentCoin.ToString();
+
         //di chuyen
         movement = Input.GetAxis("Horizontal");
         if (movement < 0f && facingRight)
@@ -67,7 +80,7 @@ public class Player : MonoBehaviour
         }
 
         //nhay
-        if (Input.GetKey(KeyCode.Space) && isGround)
+        if (Input.GetKeyDown(KeyCode.Space) && isGround)
         {
             Jump();
             isGround = false;
@@ -136,7 +149,8 @@ public class Player : MonoBehaviour
     {
         Debug.Log("You Die");
         FindObjectOfType<GameManager>().isGameActive = false;
-        Destroy(this.gameObject);
+        FindObjectOfType<GameManager>().GameOver();
+
     }
 
     void OnTriggerEnter2D(Collider2D other)
