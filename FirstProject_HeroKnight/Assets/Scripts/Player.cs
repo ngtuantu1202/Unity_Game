@@ -102,6 +102,9 @@ public class Player : MonoBehaviour
         {
             animator.SetFloat("Run", 0f);
         }
+
+        //sound
+        HandleSoundEffect();
     }
 
     private void FixedUpdate()
@@ -143,6 +146,8 @@ public class Player : MonoBehaviour
         {
             return;
         } maxHealth -= damage;
+
+        AudioManager.instance.PlayHurtClip();
     }    
 
     void Die()
@@ -177,4 +182,32 @@ public class Player : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(attackPoint.position, attackRadius);
     }
+
+    //am thanh
+    private void HandleSoundEffect()
+    {
+        if (Input.GetKeyDown(KeyCode.Space) && isGround)
+        {
+            AudioManager.instance.PlayJumpClip();
+        }
+        if (isGround && !AudioManager.instance.HasPlayEffectSound())
+        {
+            AudioManager.instance.PlayTapClip();
+            AudioManager.instance.SetHasPlayEffectSound(true);
+        }
+        else if (!isGround)
+        {
+            AudioManager.instance.SetHasPlayEffectSound(false);
+        }
+    }
+
+    //private void OnTriggerEnter2D(Collider2D collison)
+    //{
+    //    if (collison.CompareTag(""))
+    //    {
+    //        AudioManager.instance.PlayHurtClip();
+    //    }
+
+    //}
+
 }
