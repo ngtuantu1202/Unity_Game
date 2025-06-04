@@ -35,5 +35,10 @@ public class GameManager : MonoBehaviour
     {
         return isGameOver;
     }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
 }
 

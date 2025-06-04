@@ -153,6 +153,7 @@ public class Player : MonoBehaviour
     void Die()
     {
         Debug.Log("You Die");
+        Destroy(gameObject);
         FindObjectOfType<GameManager>().isGameActive = false;
         FindObjectOfType<GameManager>().GameOver();
 
@@ -160,20 +161,24 @@ public class Player : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Coin")
+        if (other.CompareTag("Coin"))
         {
             currentCoin++;
             other.gameObject.transform.GetChild(0).GetComponent<Animator>().SetTrigger("Collected");
             Destroy(other.gameObject, 1f);
-
         }
 
-        if(other.gameObject.tag == "VictoryPoint ")
+        if (other.CompareTag("VictoryPoint"))
         {
-            //Debug.Log("Victory");
             FindObjectOfType<SceneManageMent>().LoadLevel();
         }
+
+        if (other.CompareTag("Water"))
+        {
+            Die();
+        }
     }
+
 
     private void OnDrawGizmosSelected()
     {
