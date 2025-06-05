@@ -177,23 +177,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 19270}
     - Class: 114
-      Script: {instanceID: 19786}
+      Script: {instanceID: 19788}
     - Class: 114
-      Script: {instanceID: 20306}
+      Script: {instanceID: 20308}
     - Class: 114
-      Script: {instanceID: 21382}
+      Script: {instanceID: 21384}
     - Class: 114
-      Script: {instanceID: 21718}
+      Script: {instanceID: 21720}
     - Class: 114
-      Script: {instanceID: 22076}
+      Script: {instanceID: 22078}
     - Class: 114
-      Script: {instanceID: 22362}
+      Script: {instanceID: 22364}
     - Class: 114
-      Script: {instanceID: 22660}
+      Script: {instanceID: 22662}
     - Class: 114
-      Script: {instanceID: 24560}
+      Script: {instanceID: 24562}
     - Class: 114
-      Script: {instanceID: 24752}
+      Script: {instanceID: 24754}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -270,21 +270,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 19270}
     - Class: 114
-      Script: {instanceID: 19786}
+      Script: {instanceID: 19788}
     - Class: 114
-      Script: {instanceID: 20306}
+      Script: {instanceID: 20308}
     - Class: 114
-      Script: {instanceID: 21382}
+      Script: {instanceID: 21384}
     - Class: 114
-      Script: {instanceID: 21718}
+      Script: {instanceID: 21720}
     - Class: 114
-      Script: {instanceID: 22076}
+      Script: {instanceID: 22078}
     - Class: 114
-      Script: {instanceID: 22362}
+      Script: {instanceID: 22364}
     - Class: 114
-      Script: {instanceID: 22660}
+      Script: {instanceID: 22662}
     - Class: 114
-      Script: {instanceID: 24560}
+      Script: {instanceID: 24562}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -337,7 +337,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18368}
     - Class: 114
-      Script: {instanceID: 21718}
+      Script: {instanceID: 21720}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -386,17 +386,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18742}
     - Class: 114
-      Script: {instanceID: 19924}
+      Script: {instanceID: 19926}
     - Class: 114
-      Script: {instanceID: 20070}
+      Script: {instanceID: 20072}
     - Class: 114
-      Script: {instanceID: 20406}
+      Script: {instanceID: 20408}
     - Class: 114
-      Script: {instanceID: 21382}
+      Script: {instanceID: 21384}
     - Class: 114
-      Script: {instanceID: 22362}
+      Script: {instanceID: 22364}
     - Class: 114
-      Script: {instanceID: 24158}
+      Script: {instanceID: 24160}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -986,7 +986,7 @@ ScriptsOnlyBuild:
     className: HeroKnight
   - hash:
       serializedVersion: 2
-      Hash: 2b37314c838d24ce1facd45bd98f34a7
+      Hash: 05326dd1441508437deab8142a15bb79
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Player

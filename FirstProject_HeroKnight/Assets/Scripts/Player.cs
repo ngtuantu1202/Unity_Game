@@ -8,23 +8,23 @@ using UnityEngine.UI;
 public class Player : MonoBehaviour
 {
     //chi so
-    public int maxHealth = 5;
+    [SerializeField] private int maxHealth = 6;
     public Text health;
     public Text coin;
     public int currentCoin = 0;
 
     //nhay
     public Rigidbody2D rb;
-    public float jumpHeight = 15f;
-    private bool isGround = true;
+    [SerializeField] private float jumpHeight = 15f;
+    [SerializeField] private bool isGround = true;
 
     //animation
     public Animator animator;
 
 
     //di chuyen
-    private float movement;
-    public float moveSpeed = 6f;
+    [SerializeField] private float movement;
+    [SerializeField] private float moveSpeed = 6f;
 
     //xoay huong
     private bool facingRight = true;
@@ -35,7 +35,7 @@ public class Player : MonoBehaviour
     public LayerMask attackLayer;
 
     //game manager
-    private GameManager gameManager;
+    [SerializeField] private GameManager gameManager;
     // Start is called before the first frame update
     void Start()
     {
@@ -206,13 +206,5 @@ public class Player : MonoBehaviour
         }
     }
 
-    //private void OnTriggerEnter2D(Collider2D collison)
-    //{
-    //    if (collison.CompareTag(""))
-    //    {
-    //        AudioManager.instance.PlayHurtClip();
-    //    }
-
-    //}
-
 }
+

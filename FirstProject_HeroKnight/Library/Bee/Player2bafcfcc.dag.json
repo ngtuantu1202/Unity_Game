@@ -2136,7 +2136,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 30468,
       "PayloadLength": 28,
-      "PayloadDebugContentSnippet": "1MT Project \nDATN_HeroKnight",
+      "PayloadDebugContentSnippet": "MMT_Project \nDATN_HeroKnight",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info"

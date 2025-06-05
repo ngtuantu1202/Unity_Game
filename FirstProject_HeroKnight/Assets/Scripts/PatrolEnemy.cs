@@ -5,10 +5,10 @@ using UnityEngine;
 public class PatrolEnemy : MonoBehaviour
 {
     //health dameage
-    public int maxHealth = 3; 
+    [SerializeField] private int maxHealth = 3;
 
-    public bool facingLeft = true;
-    public float moveSpeed = 2f;
+    [SerializeField] private bool facingLeft = true;
+    [SerializeField] private float moveSpeed = 2f;
     public Transform checkPoint;
     public float distance = 1f;
     public LayerMask layerMask;

@@ -383,6 +383,7 @@
 "Assets/Hero Knight - Pixel Art/Demo/HeroKnight.cs"
 "Assets/Hero Knight - Pixel Art/Demo/Sensor_HeroKnight.cs"
 "Assets/Scripts/Audio Manager.cs"
+"Assets/Scripts/Example.cs"
 "Assets/Scripts/Game Manager.cs"
 "Assets/Scripts/Menu.cs"
 "Assets/Scripts/PatrolEnemy.cs"

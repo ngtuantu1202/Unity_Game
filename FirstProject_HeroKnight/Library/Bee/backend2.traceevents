@@ -1,375 +1,377 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1748850951042901, "dur":6211, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1748850951049118, "dur":146, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1748850951049301, "dur":353, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1748850951051014, "dur":62, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1748850951051493, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1748850951052673, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":0, "ts":1748850951049678, "dur":4047, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1748850951053727, "dur":171589, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1748850951225317, "dur":237, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1748850951225727, "dur":1471, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1748850951049972, "dur":3767, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1748850951053749, "dur":1551, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1748850951058144, "dur":716, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
-,{ "pid":12345, "tid":1, "ts":1748850951058873, "dur":129, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1748850951059019, "dur":97, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":1, "ts":1748850951059352, "dur":333, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Collections.dll" }}
-,{ "pid":12345, "tid":1, "ts":1748850951059691, "dur":875, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":1, "ts":1748850951060568, "dur":565, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":1, "ts":1748850951061135, "dur":120, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":1, "ts":1748850951061257, "dur":358, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\Cinemachine.dll" }}
-,{ "pid":12345, "tid":1, "ts":1748850951058870, "dur":2944, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1748850951062067, "dur":74, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1748850951062502, "dur":160771, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1748850951224379, "dur":103, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1748850951224378, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1748850951224501, "dur":768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1748850951050106, "dur":3704, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1748850951053816, "dur":273, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1748850951054089, "dur":1219, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1748850951055905, "dur":4988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/app.info" }}
-,{ "pid":12345, "tid":2, "ts":1748850951060948, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1748850951061097, "dur":2532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":2, "ts":1748850951063648, "dur":1650, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
-,{ "pid":12345, "tid":2, "ts":1748850951063647, "dur":1654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight.exe" }}
-,{ "pid":12345, "tid":2, "ts":1748850951065345, "dur":2307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight.exe" }}
-,{ "pid":12345, "tid":2, "ts":1748850951067687, "dur":5335, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1748850951083870, "dur":68, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1748850951073136, "dur":10814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":2, "ts":1748850951084029, "dur":253, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1748850951084302, "dur":3617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":2, "ts":1748850951087937, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1748850951088064, "dur":2062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
-,{ "pid":12345, "tid":2, "ts":1748850951090148, "dur":175, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1748850951090366, "dur":3104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1748850951093588, "dur":3453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1748850951097170, "dur":3551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1748850951100747, "dur":166, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1748850951100951, "dur":2302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1748850951103272, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1748850951103409, "dur":4837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1748850951108266, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1748850951108444, "dur":2286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1748850951113164, "dur":73, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1748850951110788, "dur":2462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":2, "ts":1748850951113429, "dur":8502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1748850951121960, "dur":103352, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1748850951050044, "dur":3736, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1748850951053788, "dur":321, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1748850951054109, "dur":1209, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1748850951055319, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":3, "ts":1748850951057192, "dur":3146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":3, "ts":1748850951061080, "dur":2342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1748850951063447, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Editor\\2022.3.54f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":3, "ts":1748850951063445, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":3, "ts":1748850951063534, "dur":443, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1748850951064170, "dur":23481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":3, "ts":1748850951087682, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1748850951087848, "dur":2571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":3, "ts":1748850951090436, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1748850951090510, "dur":3220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1748850951093749, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1748850951093943, "dur":3196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1748850951097221, "dur":3918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1748850951101195, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1748850951101285, "dur":2952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1748850951104265, "dur":306, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1748850951104596, "dur":3805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1748850951108517, "dur":2989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1748850951111551, "dur":3838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":3, "ts":1748850951115429, "dur":2619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/level2" }}
-,{ "pid":12345, "tid":3, "ts":1748850951124908, "dur":138, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1748850951118260, "dur":7145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/level0" }}
-,{ "pid":12345, "tid":3, "ts":1748850951125445, "dur":99922, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1748850951050223, "dur":3613, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1748850951053847, "dur":367, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1748850951054214, "dur":1109, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1748850951055330, "dur":71, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Editor\\2022.3.54f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
-,{ "pid":12345, "tid":4, "ts":1748850951055323, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1748850951055403, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1748850951057473, "dur":3451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1748850951060991, "dur":231, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1748850951061230, "dur":88, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1748850951062407, "dur":2320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1748850951066033, "dur":17930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":4, "ts":1748850951083982, "dur":299, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1748850951084299, "dur":3895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/Cinemachine.dll" }}
-,{ "pid":12345, "tid":4, "ts":1748850951088272, "dur":2971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1748850951091315, "dur":3403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1748850951094752, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1748850951094882, "dur":2463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1748850951097403, "dur":3983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1748850951101457, "dur":3303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1748850951104803, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1748850951104979, "dur":3081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1748850951108081, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1748850951108150, "dur":2644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1748850951110825, "dur":3171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1748850951114624, "dur":8500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/resources.assets" }}
-,{ "pid":12345, "tid":4, "ts":1748850951123459, "dur":101850, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1748850951049996, "dur":3754, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1748850951053759, "dur":335, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1748850951054094, "dur":1226, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1748850951055321, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":5, "ts":1748850951055385, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1748850951057368, "dur":2796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":5, "ts":1748850951060189, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1748850951063718, "dur":112, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1748850951061052, "dur":2789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1748850951064680, "dur":5441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":5, "ts":1748850951070143, "dur":2877, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1748850951073085, "dur":5768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":5, "ts":1748850951078906, "dur":572, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1748850951079521, "dur":2651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":5, "ts":1748850951082256, "dur":2807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/System.Runtime.dll" }}
-,{ "pid":12345, "tid":5, "ts":1748850951085113, "dur":269, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1748850951085425, "dur":2718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/Unity.2D.PixelPerfect.dll" }}
-,{ "pid":12345, "tid":5, "ts":1748850951088222, "dur":2588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
-,{ "pid":12345, "tid":5, "ts":1748850951090843, "dur":154, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1748850951091013, "dur":3386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1748850951094417, "dur":192, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1748850951094641, "dur":3226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1748850951097886, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1748850951098096, "dur":2947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1748850951101090, "dur":2299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1748850951103470, "dur":4625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1748850951108114, "dur":259, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1748850951108416, "dur":2557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1748850951111003, "dur":11783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/sharedassets1.resource" }}
-,{ "pid":12345, "tid":5, "ts":1748850951122981, "dur":102334, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1748850951050028, "dur":3734, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1748850951053771, "dur":311, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1748850951054082, "dur":1243, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1748850951055346, "dur":162, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Editor\\2022.3.54f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1748850951055326, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1748850951058909, "dur":2514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1748850951061473, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1748850951061872, "dur":2983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1748850951064888, "dur":350, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1748850951066038, "dur":15155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":6, "ts":1748850951081230, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1748850951081354, "dur":2097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":6, "ts":1748850951083472, "dur":317, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1748850951083838, "dur":2503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
-,{ "pid":12345, "tid":6, "ts":1748850951086364, "dur":241, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1748850951086637, "dur":2849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/Unity.2D.Common.Runtime.dll" }}
-,{ "pid":12345, "tid":6, "ts":1748850951089504, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1748850951089594, "dur":3262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1748850951092874, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1748850951092944, "dur":3996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1748850951096993, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1748850951097075, "dur":3687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1748850951100782, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1748850951100899, "dur":2146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1748850951103064, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1748850951103135, "dur":3583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1748850951106738, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1748850951106815, "dur":3625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1748850951110517, "dur":33303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":6, "ts":1748850951143834, "dur":81485, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1748850951050069, "dur":3722, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1748850951053799, "dur":295, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1748850951054095, "dur":1231, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1748850951055327, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1748850951055436, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1748850951058530, "dur":2887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1748850951061465, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1748850951062070, "dur":3762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1748850951065948, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1748850951066175, "dur":9225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":7, "ts":1748850951075432, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1748850951075545, "dur":4440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":7, "ts":1748850951080014, "dur":157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1748850951080195, "dur":3165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":7, "ts":1748850951083382, "dur":406, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1748850951083821, "dur":2122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":7, "ts":1748850951085982, "dur":165, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1748850951086165, "dur":2604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/Unity.Collections.dll" }}
-,{ "pid":12345, "tid":7, "ts":1748850951088855, "dur":3181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":7, "ts":1748850951092052, "dur":204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1748850951092272, "dur":2921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1748850951095273, "dur":3108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1748850951098400, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1748850951098467, "dur":3021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1748850951101552, "dur":3392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1748850951104981, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1748850951105066, "dur":3584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1748850951108725, "dur":2413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1748850951111166, "dur":15211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1748850951126392, "dur":98948, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1748850951050094, "dur":3707, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1748850951053807, "dur":408, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1748850951054215, "dur":1112, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1748850951055328, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":8, "ts":1748850951055380, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1748850951058465, "dur":2591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":8, "ts":1748850951061807, "dur":2431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":8, "ts":1748850951064263, "dur":541, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1748850951065909, "dur":8486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":8, "ts":1748850951074445, "dur":1680, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1748850951076175, "dur":7900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":8, "ts":1748850951084092, "dur":398, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1748850951084524, "dur":4044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":8, "ts":1748850951091732, "dur":80, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1748850951088641, "dur":3207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/Unity.2D.IK.Runtime.dll" }}
-,{ "pid":12345, "tid":8, "ts":1748850951091876, "dur":393, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1748850951092313, "dur":3365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1748850951095699, "dur":226, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1748850951095966, "dur":2893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1748850951098887, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1748850951099011, "dur":3224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1748850951102301, "dur":3030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1748850951105468, "dur":3573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1748850951109057, "dur":276, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1748850951109356, "dur":2749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1748850951112149, "dur":6106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":8, "ts":1748850951118292, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":8, "ts":1748850951118505, "dur":8815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":8, "ts":1748850951127336, "dur":97993, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1748850951050192, "dur":3624, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1748850951053823, "dur":264, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1748850951054087, "dur":1226, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1748850951055337, "dur":132, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Editor\\2022.3.54f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":9, "ts":1748850951055320, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/IT/Github/Unity_Game/BuildGame/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":9, "ts":1748850951057715, "dur":4234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":9, "ts":1748850951062006, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1748850951064111, "dur":4381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":9, "ts":1748850951068525, "dur":4494, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1748850951073125, "dur":4081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":9, "ts":1748850951077261, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1748850951077448, "dur":8684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":9, "ts":1748850951086191, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1748850951086320, "dur":2910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":9, "ts":1748850951089246, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1748850951089388, "dur":3419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1748850951092827, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1748850951092904, "dur":3682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1748850951096625, "dur":164, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1748850951101100, "dur":50, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1748850951096813, "dur":4348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1748850951101182, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1748850951101290, "dur":2731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1748850951104042, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1748850951104154, "dur":4463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1748850951108830, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1748850951109015, "dur":2848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1748850951111895, "dur":8089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":9, "ts":1748850951125670, "dur":114, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1748850951120021, "dur":5777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":9, "ts":1748850951125821, "dur":99539, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1748850951050267, "dur":3588, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1748850951053864, "dur":160, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1748850951054024, "dur":1300, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1748850951055325, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":10, "ts":1748850951057333, "dur":2915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":10, "ts":1748850951061016, "dur":1499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":10, "ts":1748850951063198, "dur":3174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":10, "ts":1748850951066418, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1748850951076996, "dur":94, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1748850951066555, "dur":10579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":10, "ts":1748850951077284, "dur":7905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":10, "ts":1748850951085207, "dur":195, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1748850951085425, "dur":2952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
-,{ "pid":12345, "tid":10, "ts":1748850951088392, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1748850951088463, "dur":3564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/Unity.Burst.dll" }}
-,{ "pid":12345, "tid":10, "ts":1748850951092042, "dur":171, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1748850951092252, "dur":3198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1748850951095469, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1748850951095651, "dur":5349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1748850951101046, "dur":1974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.PropertiesModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1748850951103082, "dur":3944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1748850951107090, "dur":2968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1748850951110081, "dur":148, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1748850951110250, "dur":1968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1748850951112235, "dur":228, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1748850951121550, "dur":50, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1748850951112507, "dur":9145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":10, "ts":1748850951121737, "dur":4098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":10, "ts":1748850951125854, "dur":99497, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1748850951050282, "dur":3588, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1748850951053870, "dur":1451, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1748850951055322, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":11, "ts":1748850951055377, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1748850951056901, "dur":4507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":11, "ts":1748850951061457, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1748850951061942, "dur":3310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":11, "ts":1748850951065286, "dur":215, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1748850951073674, "dur":111, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1748850951066059, "dur":7781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":11, "ts":1748850951074208, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Editor\\2022.3.54f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":11, "ts":1748850951074200, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":11, "ts":1748850951074282, "dur":198, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1748850951074517, "dur":3130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":11, "ts":1748850951077689, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1748850951083909, "dur":90, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1748850951077800, "dur":6209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":11, "ts":1748850951084028, "dur":252, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1748850951084313, "dur":3259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":11, "ts":1748850951087672, "dur":2119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
-,{ "pid":12345, "tid":11, "ts":1748850951089811, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1748850951089909, "dur":3135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1748850951093063, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1748850951096932, "dur":91, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1748850951093132, "dur":3903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1748850951097180, "dur":3566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1748850951100766, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1748850951100885, "dur":1923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1748850951102826, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1748850951105981, "dur":63, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1748850951102929, "dur":3135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1748850951106093, "dur":281, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1748850951106409, "dur":2992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1748850951109436, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1748850951109558, "dur":2751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1748850951112323, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1748850951112502, "dur":11759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":11, "ts":1748850951124285, "dur":101028, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1748850951050333, "dur":3555, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1748850951053888, "dur":1422, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1748850951055590, "dur":120, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":12, "ts":1748850951055711, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.IK.Runtime.dll" }}
-,{ "pid":12345, "tid":12, "ts":1748850951055765, "dur":277, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
-,{ "pid":12345, "tid":12, "ts":1748850951056044, "dur":533, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":12, "ts":1748850951056579, "dur":133, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Animation.Runtime.dll" }}
-,{ "pid":12345, "tid":12, "ts":1748850951056714, "dur":92, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Tilemap.Extras.dll" }}
-,{ "pid":12345, "tid":12, "ts":1748850951056807, "dur":384, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":12, "ts":1748850951057194, "dur":101, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InternalAPIEngineBridge.001.dll" }}
-,{ "pid":12345, "tid":12, "ts":1748850951057297, "dur":208, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Common.Runtime.dll" }}
-,{ "pid":12345, "tid":12, "ts":1748850951057506, "dur":234, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":12, "ts":1748850951057741, "dur":625, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":12, "ts":1748850951058370, "dur":1022, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Collections.dll" }}
-,{ "pid":12345, "tid":12, "ts":1748850951059395, "dur":177, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.SpriteShape.Runtime.dll" }}
-,{ "pid":12345, "tid":12, "ts":1748850951059574, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.PixelPerfect.dll" }}
-,{ "pid":12345, "tid":12, "ts":1748850951059660, "dur":1863, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":12, "ts":1748850951061530, "dur":361, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\Cinemachine.dll" }}
-,{ "pid":12345, "tid":12, "ts":1748850951055319, "dur":6708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
-,{ "pid":12345, "tid":12, "ts":1748850951063494, "dur":2490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Plugins/x86_64/lib_burst_generated.dll" }}
-,{ "pid":12345, "tid":12, "ts":1748850951066007, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1748850951066178, "dur":8754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":12, "ts":1748850951075005, "dur":5276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":12, "ts":1748850951080329, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1748850951080455, "dur":2354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":12, "ts":1748850951082834, "dur":415, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1748850951083287, "dur":2727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/Unity.Burst.Unsafe.dll" }}
-,{ "pid":12345, "tid":12, "ts":1748850951086034, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1748850951086165, "dur":2465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":12, "ts":1748850951088704, "dur":3215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":12, "ts":1748850951091944, "dur":273, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1748850951092260, "dur":3276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1748850951095648, "dur":3133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1748850951098817, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1748850951098909, "dur":2815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1748850951101826, "dur":3269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1748850951105112, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1748850951105200, "dur":3051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1748850951108277, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1748850951108418, "dur":2488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1748850951110934, "dur":2022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":12, "ts":1748850951113022, "dur":2120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":12, "ts":1748850951117940, "dur":52, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1748850951115233, "dur":2809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/level3" }}
-,{ "pid":12345, "tid":12, "ts":1748850951118118, "dur":6653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/level1" }}
-,{ "pid":12345, "tid":12, "ts":1748850951124809, "dur":100508, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1748850951229474, "dur":993, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1749166678008089, "dur":62, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1749166678008183, "dur":5306, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1749166678013496, "dur":135, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1749166678013668, "dur":369, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1749166678014059, "dur":3399, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1749166678017460, "dur":2705547, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1749166680723008, "dur":432, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1749166680723595, "dur":1620, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1749166678014280, "dur":3189, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1749166678017475, "dur":1436, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1749166678018981, "dur":91, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1749166678019078, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1749166678019312, "dur":70, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1749166678019383, "dur":256, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1749166678019640, "dur":478, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1749166678020120, "dur":119, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1749166678020241, "dur":366, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1749166678020609, "dur":64, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":1, "ts":1749166678020675, "dur":120, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1749166678020797, "dur":148, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1749166678020946, "dur":255, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1749166678021202, "dur":291, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Collections.dll" }}
+,{ "pid":12345, "tid":1, "ts":1749166678021495, "dur":118, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1749166678021615, "dur":71, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":1, "ts":1749166678021688, "dur":449, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1749166678022139, "dur":274, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1749166678022415, "dur":81, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1749166678022497, "dur":250, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\Cinemachine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1749166678022810, "dur":64, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Player2bafcfcc-inputdata.json" }}
+,{ "pid":12345, "tid":1, "ts":1749166678018980, "dur":3948, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1749166678023643, "dur":153856, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1749166678178506, "dur":101, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1749166678178505, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1749166678178641, "dur":752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1749166678179396, "dur":2543629, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1749166678014407, "dur":3104, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1749166678017518, "dur":347, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1749166678017865, "dur":1065, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1749166678018979, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1749166678021088, "dur":2564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1749166678023729, "dur":60, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1749166678023793, "dur":2052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1749166678025905, "dur":93, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Editor\\2022.3.54f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1749166678025871, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1749166678026004, "dur":217, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1749166678026231, "dur":53, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1749166678026338, "dur":16141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1749166678042568, "dur":2661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1749166678045250, "dur":188, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1749166678045458, "dur":2460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1749166678047934, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1749166678048017, "dur":4765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1749166678052800, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1749166678052871, "dur":3011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1749166678055902, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1749166678055982, "dur":2901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1749166678058953, "dur":2376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1749166678061399, "dur":2781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1749166678064200, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1749166678064267, "dur":2524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1749166678066808, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1749166678066941, "dur":1755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1749166678068770, "dur":27605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1749166678096395, "dur":2626663, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1749166678014355, "dur":3148, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1749166678017508, "dur":268, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1749166678017776, "dur":1155, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1749166678018931, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1749166678018987, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1749166678020582, "dur":62, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1749166678021451, "dur":2301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1749166678023766, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1749166678024299, "dur":1853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1749166678026206, "dur":286, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1749166678026503, "dur":333, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1749166678028029, "dur":13084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1749166678041218, "dur":3378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1749166678044617, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1749166678044768, "dur":2589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1749166678047415, "dur":3968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1749166678051412, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1749166678051530, "dur":3356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1749166678054909, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1749166678055014, "dur":2796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1749166678057832, "dur":213, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1749166678058096, "dur":2429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1749166678060601, "dur":2918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1749166678063599, "dur":3002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1749166678066629, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1749166678066702, "dur":2555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1749166678069286, "dur":1588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":3, "ts":1749166678070940, "dur":7102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1749166678078063, "dur":2644941, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1749166678014440, "dur":3088, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1749166678017535, "dur":255, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1749166678017791, "dur":1137, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1749166678018929, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1749166678018984, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1749166678021417, "dur":2907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1749166678024376, "dur":328, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1749166678026563, "dur":2440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1749166678029020, "dur":550, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1749166678029679, "dur":7446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1749166678037201, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1749166678038927, "dur":77, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1749166678037409, "dur":1637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1749166678039122, "dur":441, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1749166678039588, "dur":3088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1749166678042695, "dur":199, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1749166678042938, "dur":3109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1749166678046065, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1749166678046260, "dur":2438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":4, "ts":1749166678048711, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1749166678048903, "dur":4392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1749166678053377, "dur":3309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1749166678056706, "dur":212, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1749166678056943, "dur":2597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1749166678059560, "dur":310, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1749166678059892, "dur":2552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1749166678062477, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1749166678062638, "dur":2648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1749166678065306, "dur":234, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1749166678065561, "dur":2753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1749166678068402, "dur":2743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1749166678071188, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1749166678071331, "dur":4250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1749166678075629, "dur":2038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1749166678077703, "dur":2734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1749166678080450, "dur":2642590, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1749166678014308, "dur":3169, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1749166678017484, "dur":269, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1749166678017753, "dur":1173, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1749166678020480, "dur":3635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1749166678024822, "dur":2565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1749166678027417, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1749166678028210, "dur":13371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1749166678041608, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1749166678041775, "dur":2696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1749166678044502, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1749166678044612, "dur":2298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":5, "ts":1749166678046925, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1749166678046996, "dur":2434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":5, "ts":1749166678049468, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1749166678049626, "dur":4508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1749166678054149, "dur":170, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1749166678054339, "dur":2372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1749166678056728, "dur":207, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1749166678056952, "dur":2542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1749166678059513, "dur":356, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1749166678059895, "dur":2955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1749166678062869, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1749166678062976, "dur":2926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1749166678065920, "dur":175, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1749166678066113, "dur":2424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1749166678068557, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1749166678068620, "dur":2783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1749166678071435, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1749166678071583, "dur":5323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1749166678077219, "dur":4869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1749166678082109, "dur":2640927, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1749166678014340, "dur":3146, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1749166678017494, "dur":270, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1749166678017765, "dur":1167, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1749166678018932, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1749166678019003, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1749166678022074, "dur":1237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1749166678023377, "dur":311, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1749166678024081, "dur":1847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1749166678025948, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1749166678027145, "dur":7901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1749166678035104, "dur":1917, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1749166678037640, "dur":3573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1749166678041244, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1749166678041344, "dur":2311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1749166678043676, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1749166678043762, "dur":2721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":6, "ts":1749166678046501, "dur":227, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1749166678046750, "dur":2830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1749166678049599, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1749166678049678, "dur":4918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1749166678054661, "dur":2592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1749166678057302, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1749166678057385, "dur":2583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1749166678060029, "dur":2657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1749166678062704, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1749166678062846, "dur":2793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1749166678065710, "dur":2777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1749166678068504, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1749166678068613, "dur":2307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1749166678070949, "dur":3933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1749166678074954, "dur":5202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/level3" }}
+,{ "pid":12345, "tid":6, "ts":1749166678080179, "dur":2642819, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1749166678014387, "dur":3108, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1749166678017503, "dur":276, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1749166678017779, "dur":1150, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1749166678018930, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1749166678020927, "dur":2534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1749166678023518, "dur":238, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1749166678023790, "dur":2068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1749166678025879, "dur":828, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":7, "ts":1749166678025878, "dur":834, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight.exe" }}
+,{ "pid":12345, "tid":7, "ts":1749166678026754, "dur":87, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1749166678026843, "dur":1855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight.exe" }}
+,{ "pid":12345, "tid":7, "ts":1749166678028718, "dur":850, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1749166678029659, "dur":4068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1749166678033841, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1749166678033917, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1749166678034053, "dur":3590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1749166678037729, "dur":4585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1749166678042340, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1749166678042489, "dur":2931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":7, "ts":1749166678045507, "dur":2026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1749166678047604, "dur":4099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1749166678051720, "dur":390, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1749166678052136, "dur":3214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1749166678055369, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1749166678055500, "dur":3427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1749166678058995, "dur":2358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1749166678061452, "dur":2784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1749166678064342, "dur":3011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1749166678067393, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1749166678067523, "dur":2733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1749166678070285, "dur":9292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1749166678079603, "dur":2643409, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1749166678014428, "dur":3091, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1749166678017522, "dur":355, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1749166678017878, "dur":1046, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1749166678018937, "dur":94, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Editor\\2022.3.54f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1749166678018925, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1749166678019032, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1749166678022099, "dur":1956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1749166678024110, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1749166678024926, "dur":2600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1749166678027554, "dur":416, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1749166678032117, "dur":116, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1749166678028312, "dur":4025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1749166678032491, "dur":5643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1749166678038218, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1749166678038391, "dur":2977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1749166678041394, "dur":361, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1749166678041779, "dur":2115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":8, "ts":1749166678043913, "dur":730, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1749166678044661, "dur":2682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1749166678047361, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1749166678051308, "dur":70, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1749166678047530, "dur":3959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1749166678051514, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1749166678051623, "dur":3464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1749166678055104, "dur":186, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1749166678055321, "dur":2898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1749166678058316, "dur":2439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1749166678060774, "dur":283, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1749166678061097, "dur":2547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1749166678063659, "dur":171, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1749166678063852, "dur":3063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1749166678066932, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1749166678067097, "dur":2694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1749166678069855, "dur":3394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":8, "ts":1749166678073508, "dur":4556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1749166678078076, "dur":2644932, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1749166678014468, "dur":3078, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1749166678017555, "dur":326, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1749166678017881, "dur":1037, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1749166678019263, "dur":294, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":9, "ts":1749166678019865, "dur":2775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/app.info" }}
+,{ "pid":12345, "tid":9, "ts":1749166678022647, "dur":377, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Editor\\2022.3.54f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":9, "ts":1749166678022645, "dur":380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1749166678023726, "dur":1400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1749166678026127, "dur":7834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1749166678034050, "dur":5263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1749166678039368, "dur":180, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1749166678039581, "dur":2873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":9, "ts":1749166678042485, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1749166678042574, "dur":3251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1749166678045853, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1749166678045934, "dur":2445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":9, "ts":1749166678048455, "dur":4611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1749166678053139, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1749166678053211, "dur":2833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1749166678056062, "dur":213, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1749166678056325, "dur":3114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1749166678059459, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1749166678059535, "dur":2863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1749166678062419, "dur":166, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1749166678062607, "dur":2522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1749166678065205, "dur":2390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1749166678067612, "dur":271, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1749166678067904, "dur":2826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1749166678070759, "dur":4358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":9, "ts":1749166678075159, "dur":2879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/level2" }}
+,{ "pid":12345, "tid":9, "ts":1749166678078071, "dur":2291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":9, "ts":1749166678080392, "dur":2642609, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1749166678014510, "dur":3049, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1749166678017566, "dur":128, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1749166678017695, "dur":1232, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1749166678018976, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1749166678020566, "dur":3652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1749166678024272, "dur":541, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1749166678024929, "dur":2624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1749166678027587, "dur":321, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1749166678028278, "dur":7801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1749166678036139, "dur":562, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1749166678036763, "dur":1731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1749166678038525, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1749166678038618, "dur":533, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1749166678039162, "dur":6262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1749166678045501, "dur":2205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":10, "ts":1749166678047723, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1749166678047840, "dur":4660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1749166678052527, "dur":212, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1749166678052763, "dur":3078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1749166678055861, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1749166678055931, "dur":2592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1749166678058551, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1749166678058644, "dur":2578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1749166678061242, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1749166678061316, "dur":2894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1749166678064294, "dur":2710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1749166678067021, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1749166678067101, "dur":2542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1749166678069673, "dur":2489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1749166678072209, "dur":1756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1749166678074031, "dur":6214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/resources.assets" }}
+,{ "pid":12345, "tid":10, "ts":1749166678080265, "dur":2642745, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1749166678014540, "dur":3032, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1749166678017573, "dur":1349, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1749166678019150, "dur":110, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":11, "ts":1749166678019261, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1749166678019325, "dur":247, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":11, "ts":1749166678019573, "dur":476, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1749166678020051, "dur":111, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1749166678020163, "dur":69, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":11, "ts":1749166678020233, "dur":360, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":11, "ts":1749166678020595, "dur":77, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":11, "ts":1749166678020673, "dur":116, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1749166678020790, "dur":153, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1749166678020944, "dur":309, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1749166678021255, "dur":471, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Collections.dll" }}
+,{ "pid":12345, "tid":11, "ts":1749166678021733, "dur":424, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1749166678022159, "dur":292, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1749166678022452, "dur":115, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":11, "ts":1749166678022568, "dur":198, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Github\\Unity_Game\\FirstProject_HeroKnight\\Library\\Bee\\PlayerScriptAssemblies\\Cinemachine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1749166678018925, "dur":3938, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":11, "ts":1749166678023227, "dur":95, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1749166678026449, "dur":2694574, "ph":"X", "name": "GenerateNativePluginsForAssemblies",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":11, "ts":1749166680722152, "dur":777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":12, "ts":1749166678014569, "dur":3020, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1749166678017590, "dur":1333, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1749166678018934, "dur":113, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\IT\\Editor\\2022.3.54f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1749166678018926, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/IT/Github/Unity_Game/BuildGame/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1749166678020923, "dur":3340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1749166678024310, "dur":365, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1749166678024942, "dur":2248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1749166678027232, "dur":275, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1749166678028192, "dur":9295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1749166678037560, "dur":2716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1749166678040303, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1749166678040391, "dur":2649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1749166678043093, "dur":3181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1749166678046360, "dur":2230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1749166678048677, "dur":4711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1749166678053474, "dur":2855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1749166678056349, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1749166678056425, "dur":2680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1749166678059123, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1749166678059212, "dur":2518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1749166678061795, "dur":2896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1749166678064709, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1749166678064777, "dur":2560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1749166678067358, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1749166678067520, "dur":2501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1749166678070050, "dur":5633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":12, "ts":1749166678075716, "dur":4381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/IT/Github/Unity_Game/BuildGame/DATN_HeroKnight_Data/level0" }}
+,{ "pid":12345, "tid":12, "ts":1749166678080120, "dur":2642885, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1749166680728293, "dur":1065, "ph":"X", "name": "ProfilerWriteOutput" }
 ,
