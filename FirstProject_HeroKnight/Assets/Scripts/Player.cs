@@ -153,7 +153,6 @@ public class Player : MonoBehaviour
     void Die()
     {
         Debug.Log("You Die");
-        Destroy(gameObject);
         FindObjectOfType<GameManager>().isGameActive = false;
         FindObjectOfType<GameManager>().GameOver();
 

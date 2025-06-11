@@ -6,6 +6,7 @@ public class PatrolEnemy : MonoBehaviour
 {
     //health dameage
     [SerializeField] private int maxHealth = 3;
+    private int currentHealth;
 
     [SerializeField] private bool facingLeft = true;
     [SerializeField] private float moveSpeed = 2f;
@@ -28,7 +29,7 @@ public class PatrolEnemy : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        currentHealth = maxHealth;
     }
 
     // Update is called once per frame
@@ -38,9 +39,9 @@ public class PatrolEnemy : MonoBehaviour
         if (FindObjectOfType<GameManager>().isGameActive == false)
         {
             return;
-        }    
+        }
         //die
-        if (maxHealth <= 0)
+        if (currentHealth <= 0)
         {
             Die();
         }
@@ -68,7 +69,6 @@ public class PatrolEnemy : MonoBehaviour
                 facingLeft = true;
             }
 
-            //Debug.Log("Player in range");
             if(Vector2.Distance(transform.position, player.position) > retrieveDistance)
             {
                 animator.SetBool("Attack1", false);
@@ -113,17 +113,19 @@ public class PatrolEnemy : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        if (maxHealth <= 0)
-        {
+        if (currentHealth <= 0)
             return;
-        }
-        maxHealth -= damage;
+
+        currentHealth -= damage;
+        animator.SetTrigger("Hurt");
     }
 
     void Die()
     {
-        Debug.Log(this.transform.name + " Died");
-        Destroy(this.gameObject);
+        //Debug.Log(this.transform.name + " Died");
+
+        animator.SetBool("Attack1", false);
+        this.gameObject.SetActive(false);
     }
 
     private void OnDrawGizmosSelected()

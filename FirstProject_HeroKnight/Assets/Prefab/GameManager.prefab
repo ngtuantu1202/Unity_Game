@@ -46,3 +46,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isGameActive: 1
   gameOverUI: {fileID: 0}
+  checkpointPos: {x: 0, y: 0}
+  rb: {fileID: 0}
+  playerTransform: {fileID: 0}

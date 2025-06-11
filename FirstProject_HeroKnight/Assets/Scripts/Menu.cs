@@ -9,6 +9,19 @@ public class Menu : MonoBehaviour
         SceneManager.LoadScene("Level1");
     }
 
+    public void LoadGame()
+    {
+        if (SaveSystem.HasSaveFile())
+        {
+            SceneManager.LoadScene("Level1");
+        }
+        else
+        {
+            //Debug.Log("No save");
+        }
+    }
+
+
     public void QuitGame()
     {
         Application.Quit();
